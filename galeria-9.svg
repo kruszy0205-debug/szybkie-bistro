@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+<rect width="800" height="600" fill="#FBE0C4"/>
+<circle cx="400" cy="270" r="140" fill="#FFF4E6" stroke="#E8590C" stroke-width="6"/>
+<circle cx="400" cy="270" r="90" fill="none" stroke="#E8590C" stroke-width="4" stroke-dasharray="4 12" stroke-linecap="round"/>
+<text x="400" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#2B2B2B">Nasza kuchnia</text>
+<text x="400" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#5A5A5A">Tu wstaw swoje zdjęcie</text>
+</svg>

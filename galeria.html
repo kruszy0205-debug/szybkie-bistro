@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galeria — Szybkie Bistro</title>
+<meta name="description" content="Zdjęcia naszych dań, witryny i kuchni.">
+<link rel="icon" href="img/logo-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#tresc">Przejdź do treści</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="img/logo-mark.svg" alt=""><div><span>Szybkie</span> Bistro</div></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="main-nav" id="menu" aria-label="Główna nawigacja"><ul><li><a href="index.html">Start</a></li><li><a href="oferta.html">Oferta</a></li><li><a href="cennik.html">Cennik</a></li><li><a href="galeria.html" aria-current="page">Galeria</a></li><li><a href="kontakt.html">Kontakt</a></li></ul></nav>
+  </div>
+</header>
+<main id="tresc">
+
+<div class="wrap">
+  <div class="page-head">
+    <h1>Galeria</h1>
+    <p>Nasze dania, witryna i kuchnia. Kliknij zdjęcie, aby je powiększyć.</p>
+  </div>
+  <ul class="gallery">
+<li><button class="tile" type="button" data-caption="Rosół domowy"><img src="img/galeria-1.svg" alt="Zdjęcie zastępcze: Rosół domowy" loading="lazy"><span>Rosół domowy</span></button></li>
+<li><button class="tile" type="button" data-caption="Pierogi ruskie"><img src="img/galeria-2.svg" alt="Zdjęcie zastępcze: Pierogi ruskie" loading="lazy"><span>Pierogi ruskie</span></button></li>
+<li><button class="tile" type="button" data-caption="Schabowy z ziemniakami"><img src="img/galeria-3.svg" alt="Zdjęcie zastępcze: Schabowy z ziemniakami" loading="lazy"><span>Schabowy z ziemniakami</span></button></li>
+<li><button class="tile" type="button" data-caption="Gołąbki w sosie pomidorowym"><img src="img/galeria-4.svg" alt="Zdjęcie zastępcze: Gołąbki w sosie pomidorowym" loading="lazy"><span>Gołąbki w sosie pomidorowym</span></button></li>
+<li><button class="tile" type="button" data-caption="Sałatki dnia"><img src="img/galeria-5.svg" alt="Zdjęcie zastępcze: Sałatki dnia" loading="lazy"><span>Sałatki dnia</span></button></li>
+<li><button class="tile" type="button" data-caption="Sernik na zimno"><img src="img/galeria-6.svg" alt="Zdjęcie zastępcze: Sernik na zimno" loading="lazy"><span>Sernik na zimno</span></button></li>
+<li><button class="tile" type="button" data-caption="Witryna z daniami"><img src="img/galeria-7.svg" alt="Zdjęcie zastępcze: Witryna z daniami" loading="lazy"><span>Witryna z daniami</span></button></li>
+<li><button class="tile" type="button" data-caption="Zestawy na wynos"><img src="img/galeria-8.svg" alt="Zdjęcie zastępcze: Zestawy na wynos" loading="lazy"><span>Zestawy na wynos</span></button></li>
+<li><button class="tile" type="button" data-caption="Nasza kuchnia"><img src="img/galeria-9.svg" alt="Zdjęcie zastępcze: Nasza kuchnia" loading="lazy"><span>Nasza kuchnia</span></button></li>
+  </ul>
+</div>
+<dialog class="lightbox" id="lightbox" aria-label="Powiększone zdjęcie">
+  <img src="" alt="">
+  <p></p>
+  <button class="btn close" type="button">Zamknij</button>
+</dialog>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>Szybkie Bistro</h2>
+        <p>Garmażerka na każdy dzień. Domowe obiady, pierogi, sałatki i ciasta na wynos.</p>
+      </div>
+      <div>
+        <h2>Kontakt</h2>
+        <ul>
+          <li>ul. Przykładowa 12, 00-000 Miasto</li>
+          <li><a href="tel:+48000000000">+48 000 000 000</a></li>
+          <li><a href="mailto:szybkiebistro@gmail.com">szybkiebistro@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Godziny otwarcia</h2>
+        <ul>
+          <li>Pon.–pt.: 8:00–18:00</li>
+          <li>Sobota: 9:00–15:00</li>
+          <li>Niedziela: nieczynne</li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-small">© 2026 Szybkie Bistro. Wszelkie prawa zastrzeżone.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
